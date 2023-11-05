@@ -1,0 +1,78 @@
+const Wrapper = styled.div`
+.SwitchRoot {
+    div {
+  background-color: #f2f2f2;
+  padding: 200px;
+  border-radius: 5px;
+}
+
+/* Style for the heading */
+h1 {
+  color: #333;
+  font-size: 27px;
+  margin-bottom: 140px;
+}
+
+/* Style for the unordered list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for the list items */
+li {
+  font-size: 25px;
+  margin-bottom: 120px;
+}
+
+/* Style for the links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.SwitchThumb {
+    }
+`;
+return (
+  <Wrapper>
+    <Switch.Root className="SwitchRoot">
+      <div>
+        <h1>Crypto-Asset Concepts:</h1>
+        <ul>
+          <li>
+            <a
+              href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/article01"
+              onclick="readArticle('What is Bitcoin?')"
+            >
+              1. What is Bitcoin?
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/Article02"
+              onclick="readArticle('Understanding Blockchain Technology')"
+            >
+              2. Understanding Blockchain Technology
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/Article03"
+              onclick="readArticle('Introduction to Decentralized Finance')"
+            >
+              3. Introduction to Decentralized Finance
+            </a>
+          </li>
+        </ul>
+        <a href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/intro">
+          <button> main page</button>
+        </a>
+      </div>
+      <Switch.Thumb className="SwitchThumb" />
+    </Switch.Root>
+  </Wrapper>
+);

@@ -1,0 +1,92 @@
+const Wrapper = styled.div`
+  .SwitchRoot {
+    .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 200px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ff9900;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ff9900;
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.example {
+  background-color: #333333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.example p {
+  color: #ffffff;
+}
+ }
+  .SwitchThumb {
+     }
+`;
+return (
+  <Wrapper>
+    <Switch.Root className="SwitchRoot">
+      <div class="container">
+        <h1>Bitcoin</h1>
+        <p>
+          Bitcoin is a decentralized digital currency that was invented in 2008
+          by an unknown person or group of people using the name Satoshi
+          Nakamoto. It operates on a technology called blockchain, which is a
+          distributed ledger that records all transactions across a network of
+          computers.
+        </p>
+        <p>
+          Unlike traditional currencies issued by governments, Bitcoin is not
+          controlled by any central authority, such as a central bank. Instead,
+          it relies on a peer-to-peer network of computers to validate and
+          verify transactions. This makes Bitcoin resistant to censorship and
+          government interference.
+        </p>
+        <p>
+          Bitcoin transactions are secured using cryptographic algorithms. Users
+          have a digital wallet that stores their Bitcoin addresses, which are
+          used to send and receive funds. Transactions are verified by miners,
+          who solve complex mathematical problems to add new blocks to the
+          blockchain. Miners are rewarded with newly created Bitcoins for their
+          efforts.
+        </p>
+        <p>
+          Bitcoin has gained popularity as a digital currency and a store of
+          value. It is used for various purposes, including online purchases,
+          remittances, and investment. Its decentralized nature and limited
+          supply make it attractive to those seeking an alternative to
+          traditional financial systems.
+        </p>
+        <h2>Example:</h2>
+        <p>
+          Let's say Alice wants to send 0.05 BTC to Bob. Alice initiates the
+          transaction from her Bitcoin wallet by specifying Bob's Bitcoin
+          address and the amount to send. The transaction is broadcasted to the
+          network, where miners validate and include it in a block. Once
+          confirmed, the transaction is recorded on the blockchain, and Bob's
+          wallet reflects the new balance of 0.05 BTC.
+        </p>
+        <a href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/Articles">
+          <button> Articles</button>
+        </a>
+      </div>
+      <Switch.Thumb className="SwitchThumb" />
+    </Switch.Root>
+  </Wrapper>
+);

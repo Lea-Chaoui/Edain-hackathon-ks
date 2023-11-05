@@ -1,0 +1,149 @@
+const Wrapper = styled.div`
+  .SwitchRoot {
+ /* CSS styles for the course outline */
+h2 {
+  color: #337ab7;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #5cb85c;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Additional styles for specific elements */
+h2:first-of-type {
+  margin-top: 0;
+}
+
+h3:first-of-type {
+  margin-top: 0;
+}
+
+ul li {
+  margin-left: 20px;
+}
+}
+} .SwitchThumb { } `;
+return (
+  <Wrapper>
+    <Switch.Root className="SwitchRoot">
+      <>
+        <h2>Introduction to Smart Contracts and Decentralized Applications</h2>
+        <p>
+          Welcome to the Smart Contracts and Decentralized Applications Course!
+          In this comprehensive course, you will learn about the fundamentals of
+          smart contracts and how to build decentralized applications (DApps) on
+          various blockchain platforms. By the end of the course, you will have
+          the knowledge and skills to leverage the power of smart contracts and
+          DApps in real-world scenarios.
+        </p>
+        <h2>Course Outline:</h2>
+        <ol>
+          <li>
+            <h3>Module 1: Understanding Smart Contracts</h3>
+            <p>
+              This module provides an in-depth understanding of smart contracts,
+              their importance in blockchain ecosystems, and their applications
+              in various industries. Topics covered include:
+            </p>
+            <ul>
+              <li>Smart Contract Basics</li>
+              <li>Ethereum Virtual Machine (EVM)</li>
+              <li>Solidity Programming Language</li>
+              <li>Smart Contract Security Best Practices</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Module 2: Developing Decentralized Applications (DApps)</h3>
+            <p>
+              This module focuses on the development of decentralized
+              applications (DApps) using smart contracts. You will learn how to
+              build DApps that interact with the blockchain and provide
+              decentralized functionality. Topics covered include:
+            </p>
+            <ul>
+              <li>Web3.js and Ethereum Development</li>
+              <li>Building User Interfaces for DApps</li>
+              <li>Interacting with Smart Contracts</li>
+              <li>Testing and Deployment of DApps</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Module 3: Advanced Smart Contract Concepts</h3>
+            <p>
+              This module explores advanced concepts in smart contract
+              development and design patterns. You will learn how to implement
+              complex logic and handle common challenges in smart contracts.
+              Topics covered include:
+            </p>
+            <ul>
+              <li>Token Standards (ERC20, ERC721)</li>
+              <li>Oracles and External Data Integration</li>
+              <li>Upgradability and Governance</li>
+              <li>Smart Contract Auditing and Security Tools</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Module 4: Real-World Use Cases and Industry Applications</h3>
+            <p>
+              This module explores real-world use cases and industry
+              applications of smart contracts and decentralized applications.
+              You will learn how DApps are revolutionizing industries such as
+              finance, supply chain, gaming, and more. Topics covered include:
+            </p>
+            <ul>
+              <li>Decentralized Finance (DeFi)</li>
+              <li>Non-Fungible Tokens (NFTs)</li>
+              <li>Decentralized Exchanges (DEX)</li>
+              <li>Gaming and Collectibles</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Module 5: Future Trends and Innovations</h3>
+            <p>
+              This module explores the future trends and innovations in smart
+              contracts and decentralized applications. You will learn about
+              emerging technologies and advancements that are shaping the future
+              of blockchain development. Topics covered include:
+            </p>
+            <ul>
+              <li>Layer 2 Scaling Solutions</li>
+              <li>Interoperability and Cross-Chain Communication</li>
+              <li>Privacy and Confidentiality</li>
+              <li>Integration with IoT and AI</li>
+            </ul>
+          </li>
+        </ol>
+      </>
+      <button> Register to the online Course </button>
+      <button> downald course </button>
+      <a href="https://jutsu.ai/35e3f7be109c2eb05164b3fe483f6e34873745217426ef65c8d51e3b613220e3/widget/courses">
+        <button> Courses </button>
+      </a>
+      <Switch.Thumb className="SwitchThumb" />
+    </Switch.Root>
+  </Wrapper>
+);
